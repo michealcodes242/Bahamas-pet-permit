@@ -368,12 +368,7 @@ footer {
         
         margin-right:0.8rem;
     }
-    .btn-white {
     
-        width:15%;
-      
-
-      }
      
   h2 {
   font-size: 1.9rem;
@@ -458,7 +453,7 @@ footer {
   padding-top:.2rem;
 
  }
- .btn-white {
+ .button-glow {
   display:none;
 }
 
