@@ -439,6 +439,10 @@ footer {
 }
 
 @media(max-width:730px) {
+  .wrapper {
+    display:none;
+  }
+  
   .hb-menu {
     z-index:1000;
     height:2rem;
@@ -453,9 +457,6 @@ footer {
   padding-top:.2rem;
 
  }
- .button-glow {
-  display:none;
-}
 
   
 .flex-apply {
