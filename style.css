@@ -30,11 +30,13 @@ h1 {
  
   font-size: 3.8rem;
   max-width:12ch;
-  line-height: 47px;
+  line-height: 57px;
 }
 #wider {
   max-width:20ch;
 }
+
+
 
 h2 {
 
@@ -545,6 +547,13 @@ footer {
 
     .header-p {
         font-size:.7rem;
+      }
+
+      h1 {
+        line-height: 37px;
+      }
+      p {
+        line-height: 20px;
       }
  }
 

@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;1,700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="./imgs/favicon.png">
     <title>Bahamas Pet Permit</title>
 
@@ -44,21 +45,21 @@
      <!-- Header Block-->
     <div class="header-block">
         <img class="dog-paw" src="./imgs/dog-paw.png" alt="">
-      <h1 id="wider" class="header-h">Service Dogs & Emotional Support Animals
+      <h1 data-aos="fade-right" data-aos-offset="500"  data-aos-duration="1000" data-aos-once="true" id="wider" class="header-h">Service Dogs & Emotional Support Animals
        </h1>
-         <p class="header-p">The process of importing (including temporarily for a visit) a service animal
+         <p  data-aos="fade-left"   data-aos-duration="1000" class="header-p">The process of importing (including temporarily for a visit) a service animal
              or emotional support animal to the Bahamas is virtually no different than the process for importing a pet.
 
 
            </p>
 
-        <button class="btn-blue">Learn more</button>
+        <button data-aos="flip-up"  data-aos-duration="2000"  class="btn-blue">Learn more</button>
  </div>
  <!-- Header Block Ends-->
 <section >
- <img class="dog-img" src="./imgs/hero-service-dog.png" alt="">
+ <img data-aos="flip-right" class="dog-img" src="./imgs/hero-service-dog.png" alt="">
  <br><br><br><br>
- <p class="service-p">
+ <p data-aos="fade-left" class="service-p">
     You will need to submit a pet (domestic animal) import application form, pay the application fee, and upon approval get a copy of the import permit which you will show to Bahamas Customs at the time of entry. Restricted breeds still apply, and if your ESA or service dog is one of the restricted breeds, you will not be able to import them.
     <br><br><br>
 It may be possible to request a waiver due to medical necessity, but that is no guarantee – in fact it is a long shot.
@@ -82,5 +83,9 @@ If you would like assistance applying for the Bahamas Pet Import Permit for your
 
 
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

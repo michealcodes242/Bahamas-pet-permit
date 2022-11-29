@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;1,700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="./imgs/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Bahamas Pet Permit</title>
 
 </head>
@@ -44,9 +45,9 @@
      <!-- Header Block-->
     <div class="header-block">
         <img class="dog-paw" src="./imgs/dog-paw.png" alt="">
-      <h1 id="wider" class="header-h">Bahamas pet import application requirements
+      <h1  data-aos="fade-right" id="wider" class="header-h">Bahamas pet import application requirements
        </h1>
-         <p class="header-p">Click below to download PDF versions
+         <p data-aos="fade-left" data-aos-offset="500"  data-aos-duration="1000" data-aos-once="true" class="header-p">Click below to download PDF versions
              of these common pet permit related forms. If you have come 
              to this page from a link on another site or search engine, please 
              consider using my service to apply for your permit more efficiently 
@@ -54,25 +55,25 @@
 
            </p>
 
-        <button class="btn-blue">Get started</button>
+        <button data-aos="flip-up"  data-aos-duration="1000" class="btn-blue">Get started</button>
  </div>
  <!-- Header Block Ends-->
 <section class="flex-apply">
-  <div class="flex-apply-sec">
+  <div data-aos="slide-up"  data-aos-duration="700" class="flex-apply-sec">
     <h4 class="h-apply">Pet Import Application</h4>
     <img class="img-apply-1" src="./imgs/hero-apply.png" alt="">
     <button class="btn-blue-fixed">CLICK HERE</button>
 
   </div>
 
-  <div class="flex-apply-sec">
+  <div data-aos="zoom-out"class="flex-apply-sec">
     <h4 class="h-apply">Pet import requirements</h4>
     <img class="img-apply" src="./imgs/hero-req.png" alt="">
     <button class="btn-blue-fixed">CLICK HERE</button>
 
   </div>
 
-  <div class="flex-apply-sec">
+  <div  data-aos="slide-up"  data-aos-duration="700"class="flex-apply-sec">
     <h4 class="h-apply">Veterinary examiination form </h4>
     <img class="img-apply" src="./imgs/hero-exam.png" alt="">
     <button class="btn-blue-fixed">CLICK HERE</button>
@@ -96,5 +97,9 @@
 
 
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

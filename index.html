@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;1,700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="./imgs/favicon.png">
     <title>Bahamas Pet Permit</title>
 
@@ -39,43 +40,46 @@
      <!-- Navigation bar ends-->
 
 
+    <div class="div">
 
+    </div>
 
      <!-- Header Block-->
-    <div class="header-block">
+    <div class="header-block" >
         <img class="dog-paw" src="./imgs/dog-paw.png" alt="">
-      <h1  class="header-h">Bahamas Pet Permit
+      <h1  data-aos="fade-right" class="header-h">Bahamas Pet Permit
        </h1>
-         <p class="header-p">Hi,my name is Wellington, and I would love 
+         <p  data-aos="fade-left" data-aos-offset="500"  data-aos-duration="1000" data-aos-once="true"   class="header-p">
+            Hi,my name is Wellington, and I would love 
             to help you obtain a Bahamas Pet Import Permit,
              but also save you time and money!
            </p>
 
-        <button class="btn-blue">Get started</button>
+        <button data-aos="flip-up"  data-aos-duration="1000" class="btn-blue">Get started</button>
  </div>
  <!-- Header Block Ends-->
 <section>
-  <h2>No trips to the bank, post office or FedEx!
+  <h2 data-aos="fade-left"   data-aos-duration="1000">No trips to the bank, post office or FedEx!
      </h2>
      <img class="hero-home" src="./imgs/hero-home.png" alt="">
      <div class="col">
      <div class="left-side-col"></div>
      <div class="right-side-col">
-     <h2>How to get started</h2>
-     <p>Just send me the completed form and I’ll take care of the rest..
+     <h2 data-aos="fade-left"   data-aos-duration="1000" >How to get started</h2>
+     <p  data-aos="fade-right"   data-aos-duration="1000">Just send me the completed form and I’ll take care of the rest..
     </p>
-    <button class="btn-blue">Click here </button>
+    <button data-aos="flip-up"  data-aos-duration="1000" class="btn-blue">Click here </button>
     </div>
 </div>
 
  <div class="color-box">
-    <h2 id="white-text">This process can be smoother and cheaper</h2>
+    <h2   data-aos="zoom-in" id="white-text">This process can be smoother and cheaper</h2>
  </div>
     </section>
 
 <section>
     <div class="flex-ctn">
-        <div class="flex-left">
+        <div data-aos="fade-right"   data-aos-duration="1000"  class="flex-left">
             <h3 class="h3-resp">No more Frustration</h3>
             <p class="p-resp">The normal process for receiving a Bahamas Department of Agriculture 
                 Pet Import Permit can be frustrating and time consuming, since the permit 
@@ -83,12 +87,12 @@
                 international money order, either in person or by mail.
             </p>
         </div>
-        <div class="flex-right"></div>
+        <div data-aos="fade-left"   data-aos-duration="1000"  class="flex-right"></div>
     </div>
 
 
     <div  id="flex-reverse" class="flex-ctn">
-        <div class="flex-left flex-left-1">
+        <div  data-aos="fade-left"   data-aos-duration="1000" class="flex-left flex-left-1">
             <h3 class="h3-resp">Easier Payments</h3>
             <p class="p-resp">We all know sending cash isn’t the smartest idea. What happens
                 it if just “disappears” or “isn’t received” – not only are you out the money,
@@ -99,20 +103,18 @@
                 
             </p>
         </div>
-        <div id="easypayment"class="flex-right  flex-left-2"></div>
+        <div data-aos="fade-right"   data-aos-duration="1000" id="easypayment"class="flex-right  flex-left-2"></div>
     </div>
-    <div  class="flex-ctn">
-
-       <div class="img-girl"></div>
+ 
     </div>
 </section>
 
 
 
-<section class="section-mid">
-    <img class="alert"src="./imgs/hero-alert.png" alt="">
-    <h3><span>IMPORTANT IMFORMATION</span></h3>
-    <p class="text-stretch">My service is not a guarantee the permit will be granted.
+<section   class="section-mid">
+    <img data-aos="fade-in"   data-aos-duration="1000"class="alert"src="./imgs/hero-alert.png" alt="">
+    <h3 data-aos="fade-right"   data-aos-duration="1000"><span>IMPORTANT IMFORMATION</span></h3>
+    <p data-aos="fade-left"   data-aos-duration="1000" class="text-stretch">My service is not a guarantee the permit will be granted.
         This is solely the decision for the Bahamas Department of Agriculture and I have no influence on that decision.However, in my experience the applications are generally granted if the requirements are met and the proper documentation is provided during the application.I help to make sure that is the case so you avoid the unfortunate situation of a denial or the back-and-forth that may happen when the documentation is incorrect.
        <br>  <br>  <br>
        The USDA APHIS form or a “Pet Passport” IS NOT required for entry. USDA’s APHIS website refers visitors back to the Bahamas Department of Agriculture form.
@@ -142,5 +144,10 @@
 
 
 </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

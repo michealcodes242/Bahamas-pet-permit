@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,500;1,700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="./imgs/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Bahamas Pet Permit</title>
 
 </head>
@@ -44,22 +45,22 @@
      <!-- Header Block-->
     <div class="header-block">
         <img class="dog-paw" src="./imgs/dog-paw.png" alt="">
-      <h1 id="wider" class="header-h">Restricted  Breed & Quarantine
+      <h1 data-aos="fade-right" data-aos-offset="500"  data-aos-duration="1000" data-aos-once="true"id="wider" class="header-h">Restricted  Breed & Quarantine
        </h1>
-         <p class="header-p">The Bahamas restricts the importation of
+         <p data-aos="fade-left" data-aos-offset="500"  data-aos-duration="1000" data-aos-once="true" class="header-p">The Bahamas restricts the importation of
              certain dog breeds – even temporarily 
             by visitors whether arriving by commercial airline, 
             private boat, private airplane or any other metho
 
            </p>
 
-        <button class="btn-blue">Learn more</button>
+        <button data-aos="flip-up"  data-aos-duration="2000" class="btn-blue">Learn more</button>
  </div>
  <!-- Header Block Ends-->
 <section >
 <div class="div-margin">
-<h3>Resticted Breed</h3>
-<p>
+<h3 data-aos="fade-down"  >Resticted Breed</h3>
+<p data-aos="zoom-out">
     The following dog breeds are restricted/banned from importation into The Bahamas: <br><br><br><br>
 
 Pit Bull<br>
@@ -93,5 +94,9 @@ Chausie<br>
 
 
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
