@@ -475,7 +475,7 @@ footer {
     z-index:999;
     position:absolute;
     top:0px;
-    background-color:#252f30;
+    background-color:#a7dee3;
     width:100%;
     flex-direction: column;
     align-items: flex-start;
@@ -493,7 +493,7 @@ footer {
   position: sticky;
   color: var(--dark-blue);
   font-size: 1.2rem;
-  font-weight:bold;
+  font-weight:medium;
   padding:.7rem;
   
 
