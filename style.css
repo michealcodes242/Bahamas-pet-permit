@@ -72,7 +72,7 @@ p {
     max-width:100%;
     display:flex; 
     padding:1rem;
-    margin:1rem;
+   
     align-items: center;
     
    
@@ -445,7 +445,7 @@ footer {
   
   .hb-menu {
     z-index:1000;
-    height:2rem;
+    height:1.7rem;
     width:30px;
     margin-left:auto;
     cursor:pointer;
@@ -453,6 +453,8 @@ footer {
  }
  
  .nav-bar {
+  position: sticky;
+  top:0;
   margin-top:0;
   padding-top:.2rem;
 
@@ -473,6 +475,7 @@ footer {
     align-items: flex-start;
     left:-8000px;
     padding-top:12px;
+    
 }
 .nav-list.active{
     transition:ease-in 0.3s;
