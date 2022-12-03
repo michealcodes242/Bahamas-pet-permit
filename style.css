@@ -115,6 +115,15 @@ p {
     margin-right:2rem;
 }
 
+ .list-item a:hover,
+ :focus {
+  color:#fff;
+  transition: ease 1s;
+}
+#link-active {
+  color:#fff;
+}
+
 
 
 /* Buttons */
